@@ -7,3 +7,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 2](Day02.ipynb). Array manipulation, `numpy` FTW.
 
 * [Day 3](Day03.ipynb). String manipilation with regular expressions (I tried to use regexp to a maximum to avoid explicit searching).
+
+* [Day 4](Day04.ipynb). First 2D map of the year! Using a `defaultdict` to store map information to void having to check boundaries, with complex number to represent coordinate to simplify movements as operations on complex values.
