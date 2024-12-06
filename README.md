@@ -11,3 +11,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 4](Day04.ipynb). First 2D map of the year! Using a `defaultdict` to store map information to void having to check boundaries, with complex number to represent coordinate to simplify movements as operations on complex values.
 
 * [Day 5](Day05.ipynb). Custom `compare` function following the ordering rules, to be passed to sorting algorithm via `functools.cmp_to_key()`
+
+* [Day 6](Day06.ipynb). 2D map exploration with rotation at obstacles. Using complex number to describe positions and (change of) directions, map represented as dictionary to simplyfy boundary checks. Part 2 requires identification of loop, tracked with recurring positions and direction.
