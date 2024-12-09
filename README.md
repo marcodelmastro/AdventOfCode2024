@@ -17,3 +17,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 7](Day07.ipynb). Mathematical operations to be evaluated in sequential order to find permutation giving right result. There might be some mathematical shortcut, but I went for the brute force solution. I was initially using `eval` to make calculation to save a `if` structure, but `eval` is very slow and makes part 2 solution very long. Swithcing to pure mathematical functions speeds things up considerably.
 
 * [Day 8](Day08.ipynb). Line tracing on a 2D grid.
+
+* [Day 9](Day09.ipynb). Long list with elements to be updated. Used a `dictionary` for faster lookup, considered for a moment to write a custom linked-list class fearing what could come up in part 2, but ended up bruteforcing part 2 in ~1 minute with some basic optimizations.
