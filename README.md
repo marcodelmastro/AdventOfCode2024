@@ -19,3 +19,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 8](Day08.ipynb). Line tracing on a 2D grid.
 
 * [Day 9](Day09.ipynb). Long list with elements to be updated. Used a `dictionary` for faster lookup, considered for a moment to write a custom linked-list class fearing what could come up in part 2, but ended up bruteforcing part 2 in ~1 minute with some basic optimizations.
+
+* [Day 10](Day10.ipynb). Path finding with BFS.
