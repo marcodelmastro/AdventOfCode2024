@@ -27,3 +27,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 12](Day12.ipynb). Recursive flood fill for Part 1. Part 2 was tricky: I got the idea of finding vertices by projecting the square centers pretty quickly, but to find the correction needed to account for concave patches I had to make drawings, see the missing vertices, and then count by hand to understand how to properly account sides associated by vertices sharing diagonal squares.
 
 * [Day 13](Day13.ipynb). Solved Part 1 with brute force, expecting Part 2 to make it impossible. After some pondering (and even thinking about diophantine equations) I realised the problem can be reduced as a system of two linear equations with two unknowns, relatively simple to solve!
+
+* [Day 14](Day14.ipynb). Part 1 was a simple evolution of points on a grid. Part 2 was... unexpected! Initially solved by scanning many frame rendering by eye, later tried a couple of different approaches, including image entropy.
