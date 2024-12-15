@@ -29,3 +29,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 13](Day13.ipynb). Solved Part 1 with brute force, expecting Part 2 to make it impossible. After some pondering (and even thinking about diophantine equations) I realised the problem can be reduced as a system of two linear equations with two unknowns, relatively simple to solve!
 
 * [Day 14](Day14.ipynb). Part 1 was a simple evolution of points on a grid. Part 2 was... unexpected! Initially solved by scanning many frame rendering by eye, later tried a couple of different approaches, including image entropy.
+
+* [Day 15](Day15.ipynb). Grid navigation and collision detection. BFS for vertical movements of Part 2 to build list of box coordinated to be moved.
