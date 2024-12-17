@@ -33,3 +33,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 15](Day15.ipynb). Grid navigation and collision detection. BFS for vertical movements of Part 2 to build list of box coordinated to be moved.
 
 * [Day 16](Day16.ipynb). Path finding with movement weight: using Dijkstra's algorithm with a `PriorityQueue` indexed on path score. For Part 2 saving full path and accumulating all positions for paths with best scores, returning the total set when best score is exceeded (i.e. all best score paths are found).
+
+* [Day 17](Day17.ipynb). Simple opcode for Part 1. To solve Part 2 I reverse-engineered the program to understand the lnk between input register and output, then implemented a recursive search for the onput value components (in base 8) that resulted in an output mimicking the program itself.
