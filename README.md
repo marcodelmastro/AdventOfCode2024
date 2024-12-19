@@ -37,3 +37,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 17](Day17.ipynb). Simple opcode for Part 1. To solve Part 2 I reverse-engineered the program to understand the lnk between input register and output, then implemented a recursive search for the input value components (in base 8) that resulted in an output mimicking the program itself.
 
 * [Day 18](Day18.ipynb). BFS for Part 1, brute force scanning for Part 2.
+
+* [Day 18](Day18.ipynb). Recursion and backtracking to find sequences of strings compoising input strings. Memoization already needed to converge on Part 1. I initially was finding the the actual sequences (works fine for Part 1 with memoization), but this explodes for part 2, where simply counting all possible sequence is instead feasible.
