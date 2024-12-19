@@ -38,4 +38,4 @@ Update private input module with: `git submodule update --init --remote --recurs
 
 * [Day 18](Day18.ipynb). BFS for Part 1, brute force scanning for Part 2.
 
-* [Day 18](Day18.ipynb). Recursion and backtracking to find sequences of strings compoising input strings. Memoization already needed to converge on Part 1. I initially was finding the the actual sequences (works fine for Part 1 with memoization), but this explodes for part 2, where simply counting all possible sequence is instead feasible.
+* [Day 18](Day18.ipynb). Recursion and backtracking to find the sequences of strings composing input strings. Memoization already needed to converge on Part 1. I initially was finding the actual sequences (works fine for Part 1 with memoization), but this explodes for part 2, where simply counting all possible sequence is instead feasible.
