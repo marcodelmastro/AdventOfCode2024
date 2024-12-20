@@ -40,4 +40,4 @@ Update private input module with: `git submodule update --init --remote --recurs
 
 * [Day 19](Day19.ipynb). Recursion and backtracking to find the sequences of strings composing input strings. Memoization already needed to converge on Part 1. I initially was finding the actual sequences (works fine for Part 1 with memoization), but this explodes for part 2, where simply counting all possible sequence is instead feasible.
 
-* [Day 20](Day20.ipynb). Path navigation with a spin. One might be tempted to used a path finding algorithm on this, but since the initial path is unique one can cache all distance to the end, and "recompose" the path distance after the cheat by summing the partial distances and the cheat lenght.
+* [Day 20](Day20.ipynb). Path navigation with a spin. One might be tempted to use a path finding algorithm on this, but since the initial path is unique one can cache all distances to the end, and "recompose" the path distance after the cheat by summing the partial distances and the cheat lenght.
