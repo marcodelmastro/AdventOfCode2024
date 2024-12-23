@@ -45,3 +45,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 21](Day21.ipynb). I had the good idea to use `networkx` to simplfy the search for the shortest paths, but building the full sequence string only worked for Part 1. For Part 2 I cached all shortest paths between any key on both keypads, then recursively counted the shortest sequence lenght by reaching the bottom of the robot chain, where the sequence themselves can be converted into their lenght and propagated up through the recursion chain. Today was as difficult as Day 19, and in some sense similar in what the solution for part 2 needed.
 
 * [Day 22](Day22.ipynb). Linear Congruential Generator, list and dictionary manipulation.
+
+* [Day 23](Day23.ipynb). Graph manipulation: using a dictionary for Part 1, `networkx` FTW for Part 2!
