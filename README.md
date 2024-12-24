@@ -47,3 +47,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 22](Day22.ipynb). Linear Congruential Generator, list and dictionary manipulation.
 
 * [Day 23](Day23.ipynb). Graph manipulation: using a dictionary for Part 1, `networkx` FTW for Part 2!
+
+* [Day 24](Day24.ipynb). Recursive solution for Part 1. I solved Part 2 "by hand": network visualisation, searching for wrongly-cabled summer circuit. Finding the last swap was tricky, and testing with many values helped to debug the solution.
