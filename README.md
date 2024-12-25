@@ -51,3 +51,7 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 24](Day24.ipynb). Recursive solution for Part 1. I solved Part 2 "by hand": network visualisation, searching for wrongly-cabled summer circuit. Finding the last swap was tricky, and testing with many values helped to debug the solution.
 
 * [Day 25](Day25.ipynb). Simple array comparison, I solved using `numpy` and summing matrices.
+
+![50 stars](./AOC2024_50stars.jpg "50 stars")
+
+![10 years](./AOC2024_10years.jpg "10 years")
