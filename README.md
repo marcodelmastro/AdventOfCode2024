@@ -52,6 +52,6 @@ Update private input module with: `git submodule update --init --remote --recurs
 
 * [Day 25](Day25.ipynb). Simple array comparison, I solved using `numpy` and summing matrices.
 
-![50 stars](./AOC2024_50stars.jpg "50 stars")
+![50 stars](./AOC2024_50stars.PNG "50 stars")
 
-![10 years](./AOC2024_10years.jpg "10 years")
+![10 years](./AOC2024_10years.PNG "10 years")
